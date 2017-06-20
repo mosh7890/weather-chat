@@ -11,6 +11,41 @@
 
 <body>
 
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container nav1">
+            <div class="navbar-header">
+                <a class="navbar-brand nav-header1" href="#">Weather App</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="text-center">
+                    <h1 class="text-center search-banner">Weather Search!</h1>
+                    <i class="fa fa-spinner fa-spin fa-2x fa-fw loading"></i>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label id="myLabel1" class="text-center">Search by City</label>
+                        <input type="text" id="myInput1" class="form-control" placeholder="Enter a City"></input>
+                    </div>
+                    <button class="btn btn-primary mySearchBtn1" type="button">Search</button>
+                    <button class="btn btn-danger myClearBtn1" type="button">Clear Local Storage</button>
+                </form>
+            </div>
+            <div class="col-lg-8">
+                <h1 class="text-center">Weather Results!</h1>
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="text-center myResults1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript" src="/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="/bootstrap/dist/js/bootstrap.js"></script>
     <script type="text/javascript" src="/handlebars/dist/handlebars.js"></script>

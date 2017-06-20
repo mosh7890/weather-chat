@@ -1,0 +1,57 @@
+.nav-header1 {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  font-size: 25px;
+}
+
+.loading {
+    display: none;
+}
+
+#myLabel1 {
+    font-size: 25px;
+    width: 400px;
+}
+
+#myInput1, #myInput2 {
+    font-size: 20px;
+}
+
+#myInput2 {
+    width:75%;
+}
+
+
+.mySearchBtn1, .myCommentBtn1 {
+    font-size: 20px;
+}
+
+.resultsList {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.weatherContainer {
+    font-size: 25px;
+}
+
+.weatherContainer i {
+    height: 35px;
+}
+
+.commentContainer {
+    display: none;
+    font-size: 20px;
+}
+
+body {
+    padding: 50px;
+}
+
+* {
+    font-family: Oswald;
+}

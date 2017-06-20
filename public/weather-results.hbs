@@ -1,0 +1,27 @@
+<ul class="list-group" style="list-style: none;">
+    {{#each this}}
+    <li class="resultsList">
+        <div class="weatherContainer">
+            <a><i class="fa fa-comment-o fa-lg commentIcon1" aria-hidden="true"></i></a> Location: {{city}}, {{country}}. Temperature:
+                {{temperature}}. Windspeed: {{windSpeed}}.
+            <a><i class="fa fa-trash fa-lg trashIcon1" aria-hidden="true"></i></a>
+        </div>
+        <div class="commentContainer">
+            <ul class="list-group" style="list-style: none;">
+                {{#each this.comments}}
+                <li class="commentIn">
+                    {{this}}
+                    <a><i class="fa fa-trash fa-lg trashIcon2" aria-hidden="true"></i></a>
+                </li>
+                {{/each}}
+            </ul>
+            <form>
+                <div class="form-group">
+                    <input type="text" id="myInput2" class="form-control" placeholder="Enter a Comment"></input>
+                    <button class="btn btn-primary myCommentBtn1" type="button">Post</button>
+                </div>
+            </form>
+        </div>
+    </li>
+    {{/each}}
+</ul>
