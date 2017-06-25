@@ -22,24 +22,24 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4">
-                <div class="text-center">
+                <div>
                     <h1 class="text-center search-banner">Weather Search!</h1>
                     <i class="fa fa-spinner fa-spin fa-2x fa-fw loading"></i>
                 </div>
                 <form>
                     <div class="form-group">
-                        <label id="myLabel1" class="text-center">Search by City</label>
-                        <input type="text" id="myInput1" class="form-control" placeholder="Enter a City"></input>
+                        <label class="text-center myLabel1">Search by City</label>
+                        <input class="form-control cityInput" type="text" placeholder="Enter a City"></input>
                     </div>
-                    <button class="btn btn-primary mySearchBtn1" type="button">Search</button>
-                    <button class="btn btn-danger myClearBtn1" type="button">Clear Local Storage</button>
+                    <button class="btn btn-primary searchCity" type="button">Search</button>
+                    <button class="btn btn-danger clearLocalStorage" type="button">Clear Local Storage</button>
                 </form>
             </div>
             <div class="col-lg-8">
                 <h1 class="text-center">Weather Results!</h1>
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
-                        <div class="text-center myResults1"></div>
+                        <div class="myResults1"></div>
                     </div>
                 </div>
             </div>

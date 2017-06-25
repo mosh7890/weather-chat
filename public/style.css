@@ -9,25 +9,44 @@
     display: none;
 }
 
-#myLabel1 {
+.myLabel1 {
     font-size: 25px;
     width: 400px;
 }
 
-#myInput1, #myInput2 {
+.cityInput, .newComment {
     font-size: 20px;
 }
 
-#myInput2 {
+.newComment {
     width:75%;
+    margin: 25px;
 }
 
-
-.mySearchBtn1, .myCommentBtn1 {
+.searchCity, .clearLocalStorage, .postNewComment {
     font-size: 20px;
 }
 
-.resultsList {
+.postNewComment {
+    margin-left: 25px;
+    margin-bottom: 25px;    
+}
+
+.weather {
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.weather i {
+    height: 30px;
+}
+
+.comments-container {
+    display: none;
+    font-size: 20px;
+}
+
+.myResults1 {
     background-color: white;
     border: 3px solid black;
     border-radius: 25px;
@@ -35,23 +54,11 @@
     margin-bottom: 5px;
 }
 
-.weatherContainer {
-    font-size: 25px;
-}
-
-.weatherContainer i {
-    height: 35px;
-}
-
-.commentContainer {
-    display: none;
-    font-size: 20px;
-}
-
 body {
     padding: 50px;
 }
 
 * {
+    box-sizing: border-box;
     font-family: Oswald;
 }
